@@ -1,0 +1,54 @@
+body{
+    background-color:rgb(33, 49, 131);
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.top{
+    height: 10px;
+}
+.head{
+    background-color: rgb(255, 255, 255);
+    color: grey;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
+.logo-margin{
+    padding: 0px 300px 0px 0px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-div{
+    background-color: red;
+    
+}
+.logo-text-div{
+    background-color: blue ;
+}
+
+.hcpss-logo{
+    width: 80px;
+    height: auto;
+    border: 2px solid grey;
+    border-radius: 8px;
+}
+.hcpss-main-text{
+    font-weight: 400;
+    /*margin-left: 16px;*/
+    font-size: 24px;
+}
+
+/*  grey seperation */
+
+.middle-grey-sep{
+    background-color: gray;
+    height: 40px;
+}
+.main-content{
+    display: flex;
+}
+.firstBlock{
+    display:flex;
+}

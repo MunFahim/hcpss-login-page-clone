@@ -1,0 +1,169 @@
+body{
+    background-color:rgb(41, 97, 171);
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.top{
+    height: 12px;
+}
+.head{
+    background-color: rgb(255, 255, 255);
+    color: grey;
+    padding: 8px 16px;
+}
+.logo-margin{
+    display: flex;
+    gap: 16px;
+    
+}
+
+
+.hcpss-logo{
+    width: 60px;
+    height: auto;
+    border: 1px solid grey;
+    border-radius: 6px;
+}
+.hcpss-main-text{
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+/* middle grey sep */
+.middle-grey-sep{
+    height: 32px;
+    background-color: rgb(152, 152, 152);
+}
+
+/* digital citizne... */
+
+.main-content-center{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    padding: 24px;
+}
+.main-content{
+    display: flex;
+    gap: 64px;
+    font-size: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.firstBlock{
+    padding: 0;
+    border: 2px solid rgb(75, 106, 217);
+    flex: 0 0 300px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: rgb(251, 251, 255);
+}
+.firstBlock-inside{
+    margin-left: 8px;
+    line-height: 18px;
+    color:rgb(77, 77, 77);
+}
+
+.title-text{
+    font-weight: 400;
+    font-size: 19px;
+}
+.title-border{
+    padding: 0;
+    width: 250px;
+    height: 24px;
+    border-bottom: 2px solid rgb(157, 157, 157);
+}
+.bullet-txt{
+    width: 250px;
+    margin: auto;
+}
+
+.title-des{
+    font-size: 14px;
+}
+
+.secondBlock{
+    flex: 0 0 400px;
+
+}
+ul{
+    font-size: 14px;
+    gap: 5px;
+}
+span{
+    font-weight: 600;
+}
+span.policy{
+    color:rgb(92, 145, 225);
+}
+
+/* username + pass */
+
+.secondBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.userpass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+}
+.username,.pass{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+.username{
+    gap: 16px;
+    color: rgb(157,157,157);
+}
+.pass{
+    gap: 24px;
+    color:rgb(157, 157, 157);
+}
+
+.username-input,.password-input{
+    padding: 8px;
+    color: grey;
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+
+.btn-login{
+    margin: auto;
+}
+.login-btn-click{
+    padding: 8px 16px;
+    color: grey;
+    border: 1px solid;
+    border-radius: 16px;
+}
+.login-btn-click:hover{
+    cursor: pointer;
+    background-color: rgb(151, 151, 151);
+}
+
+.forgot-pass{
+    text-align: center;
+    color:rgb(108, 140, 255);
+}
+
+
+
+/* footer */
+.footer{
+  font-size: 13px; 
+  height: 80px;
+  border-top: 5px solid rgb(200, 200, 255);
+  color: rgb(255, 249, 233);
+}
+.foot{
+    margin-left: 64px;
+}
